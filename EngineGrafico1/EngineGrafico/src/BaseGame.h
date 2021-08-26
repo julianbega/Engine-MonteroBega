@@ -1,11 +1,9 @@
 #ifndef BASEGAME_H
 #define BASEGAME_H
 
-#include "export.h"
 
-#include "Window.h"
 #include "renderer.h"
-
+#include "Window.h"
 #include "Global.h"
 
 

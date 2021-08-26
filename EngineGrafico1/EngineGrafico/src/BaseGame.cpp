@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <string>
 #include <iostream>
-#include "glew.h"
-#include "glfw3.h"
+
 
 BaseGame::BaseGame() {
 	//ventana = new Window();
@@ -42,13 +41,7 @@ void BaseGame::update()
 	{
 		ventana.ClearBackground();
 
-		pos1 = { -0.5f, -0.5f,1,1, BLUE };
-		pos2 = { 0.5f, -0.5f,1,1, BLUE };
-		pos3 = { 0.0f, 0.5f,1,1, BLUE };
-		//render.DrawTriangle(pos1, pos2, pos3);
-
-
-
+		render.DrawTriangle(pos1, pos2, pos3);
 
 		ventana.FinishWindowCycle();
 

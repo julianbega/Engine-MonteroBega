@@ -1,14 +1,14 @@
 #ifndef RENDERER_H
 #define RENDERER_H
-#include "export.h"
 
+#include "glew.h"
+#include "glfw3.h"
+#include "export.h"
 #include <stdlib.h>
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "glew.h"
-#include "glfw3.h"
 
 using namespace std;
 
